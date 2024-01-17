@@ -1,0 +1,35 @@
+/* CustomCard.css */
+.custom-card {
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-card .card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .custom-card .card-body {
+    padding: 1.25rem;
+  }
+  
+  .custom-card .card-title {
+    color: #333;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .custom-card .card-text {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .custom-card .btn-success {
+    width: 100%;
+  }
+  
